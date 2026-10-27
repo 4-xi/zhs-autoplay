@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "智慧树自动连播",
+  "version": "2.0",
+  "description": "智慧树自动连播：切到新节自动点播放，目录出现完成对勾后跳下一节。",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.zhihuishu.com/*"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle",
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
