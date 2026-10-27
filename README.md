@@ -1,10 +1,6 @@
 
 # zhs-autoplay
 智慧树网课自动连播浏览器扩展
-# OS
-.DS_Store
-Thumbs.db
-
 # 打包产物
 *.zip
 
